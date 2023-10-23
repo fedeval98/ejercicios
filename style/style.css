@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    background-color: #F0F0F0;
+    height: 100%;
+    width: 98%;
+    gap: 10vh;
+    text-align: center;
+    justify-content: center;
+}
+
+#map{
+    margin: 7vh 0vh;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2vh;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+}
+
+#form{
+    background-color: white;
+    padding: 4vh;
+    margin: 4vh 0vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input[type="submit"]{
+    background-color: rgb(62, 127, 248);
+    color: white;
+    border-radius: 1vh;
+    width: 30%;
+    height: 4vh;
+}
+.left{
+    text-align: left;
+}
